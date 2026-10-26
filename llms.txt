@@ -1,0 +1,43 @@
+# Viego Labs
+
+> Estudio de software para pymes, con base en Talavera de la Reina (Toledo) y proyectos en toda España. Apps, CRM y herramientas a medida, reservas online, pagos, agentes de IA, lectura automática de documentos, integraciones entre programas y cuadros de mando. Es la parte de desarrollo de Viego (https://www.viego.es/).
+
+Trabajamos en remoto, sin oficina abierta al público, y vamos en persona cuando el proyecto lo pide, sobre todo en Talavera y su comarca. No publicamos precios: después de una llamada de media hora enviamos una propuesta cerrada.
+
+## Qué hacemos
+
+- Apps para iOS y Android: un solo desarrollo, panel web para gestionarla, publicada en las tiendas y mantenida.
+- CRM y herramientas a medida: clientes, agenda, presupuestos y facturas con los procesos de cada empresa, sin licencias por usuario.
+- Reservas online: huecos reales de la agenda, recordatorios por WhatsApp o correo y señal al reservar.
+- Pagos: tarjeta y Bizum en la web, la app o el CRM; la factura sale sola al cobrar.
+- Agentes de IA: atienden teléfono, WhatsApp y correo, avisan de que son una IA y pasan a una persona cuando hace falta.
+- Lectura automática de documentos: albaranes, facturas y pedidos directos al programa, sin teclear.
+- Integraciones: tienda online, ERP y contabilidad sincronizados, con aviso si algo falla.
+- Cuadros de mando: ventas, márgenes y pendientes actualizados solos, en el móvil y en el ordenador.
+
+## Qué no hacemos
+
+- Páginas web, SEO, publicidad ni branding. De eso se encarga Viego: https://www.viego.es/
+
+## Cómo trabajamos
+
+1. Una llamada de media hora.
+2. Una propuesta cerrada: qué hacemos, en cuánto tiempo y por cuánto.
+3. Entregas cada semana, para probar mientras se construye.
+4. Mantenimiento y mejoras.
+
+## Proyectos que enseñamos
+
+- Teratuti: app real (iOS, Android y ordenador) de profesionales sociosanitarios verificados en toda España.
+- Arenal, Contesta, Cierra, Cobra, Lee, Puente y Pulso: productos y demos propios para enseñar lo que montamos. No son clientes.
+
+## Páginas
+
+- [Inicio](https://viegolabs.es/): qué hacemos, ejemplos, cómo trabajamos y contacto.
+- [Talavera de la Reina](https://viegolabs.es/talavera-de-la-reina/): software a medida para pymes de Talavera y su comarca, en remoto y en persona.
+
+## Contacto
+
+- Correo: labs@viego.es
+- WhatsApp: +34 662 173 981 (https://wa.me/34662173981)
+- Web: https://viegolabs.es/

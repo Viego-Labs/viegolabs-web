@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Solo URL canónicas y absolutas. lastmod = último cambio importante del contenido (Google ignora changefreq y priority). -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://viegolabs.es/</loc>
+    <lastmod>2026-10-26</lastmod>
+  </url>
+  <url>
+    <loc>https://viegolabs.es/talavera-de-la-reina/</loc>
+    <lastmod>2026-10-26</lastmod>
+  </url>
+</urlset>

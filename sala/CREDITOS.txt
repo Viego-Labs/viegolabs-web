@@ -1,0 +1,8 @@
+Recursos de Poly Haven (https://polyhaven.com), licencia CC0: uso libre, también comercial, sin atribución obligatoria.
+Texturas de los modelos reducidas a 512 px para que la sala pese menos.
+
+Texturas: concrete_floor_02 (suelo), concrete_wall_004 (paredes), smoked_walnut_veneer (mesa y listones), white_oak_veneer (mesa de Teratuti).
+Modelos: metal_office_desk, modern_wooden_cabinet, steel_frame_shelves_03, mid_century_lounge_chair, modern_arm_chair_01,
+modern_coffee_table_01, modern_ceiling_lamp_01, desk_lamp_arm_01, wall_clock, metal_toolbox, clipboard, potted_plant_02, potted_plant_04.
+
+La luz de la sala está horneada con Blender (herramienta GPL; lo que produce es nuestro): ver web/herramientas/hornear/.
