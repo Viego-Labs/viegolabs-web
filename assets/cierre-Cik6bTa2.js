@@ -1,0 +1,1 @@
+import{n as e}from"./inicio-DbR02zpn.js";import{t}from"./siguiente-B1piCJOf.js";function n({gsap:n,ScrollTrigger:r,reducido:i}){e(document.querySelector(`#hablemos-titulo`),{gsap:n,ScrollTrigger:r,reducido:i}),t({reducido:i})}export{n as iniciar};

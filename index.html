@@ -51,10 +51,10 @@
     ]
   }
   </script>
-  <script type="module" crossorigin src="/viegolabs-web/assets/inicio-BMbpSRJ-.js"></script>
+  <script type="module" crossorigin src="/viegolabs-web/assets/inicio-DbR02zpn.js"></script>
   <link rel="modulepreload" crossorigin href="/viegolabs-web/assets/sonido-Dvm---Cf.js">
   <link rel="stylesheet" crossorigin href="/viegolabs-web/assets/sonido-BBupn6Wu.css">
-  <link rel="stylesheet" crossorigin href="/viegolabs-web/assets/inicio-mNPqicU9.css">
+  <link rel="stylesheet" crossorigin href="/viegolabs-web/assets/inicio-OgTMTK3q.css">
 </head>
 <body>
   <a class="saltar" href="#contenido">Ir al contenido</a>
@@ -76,7 +76,10 @@
     try {
       const quieto = matchMedia('(prefers-reduced-motion: reduce)').matches;
       if (!quieto) document.documentElement.classList.add('entrada');
-      if (!sessionStorage.getItem('vl-entrada') && !quieto) document.getElementById('cargador').hidden = false;
+      if (!sessionStorage.getItem('vl-entrada') && !quieto) {
+        document.getElementById('cargador').hidden = false;
+        document.documentElement.classList.add('con-cargador');
+      }
     } catch { /* sin almacenamiento: sin cargador */ }
   </script>
 
