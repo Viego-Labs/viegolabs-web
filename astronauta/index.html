@@ -1,0 +1,284 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Viego Labs · Apps, software e inteligencia artificial</title>
+  <meta name="description" content="Creamos apps móviles, software e inteligencia artificial que hacen crecer a las empresas: CRM, apps, IA de voz, chatbots y automatizaciones.">
+  <meta name="theme-color" content="#0A0D0E">
+  <link rel="canonical" href="https://viegolabs.es/">
+  <link rel="icon" href="/viegolabs-web/astronauta/favicon.ico" sizes="48x48">
+  <link rel="icon" href="/viegolabs-web/astronauta/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/viegolabs-web/astronauta/apple-touch-icon.png">
+  <link rel="preload" href="/viegolabs-web/astronauta/fuentes/satoshi/Satoshi-Variable.woff2" as="font" type="font/woff2" crossorigin>
+  <style>html{--lightningcss-light: ;--lightningcss-dark:initial;color-scheme:dark;background:#0a0d0e}body{color:#c7cfcd;background:#0a0d0e;margin:0}</style>
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Viego Labs">
+  <meta property="og:locale" content="es_ES">
+  <meta property="og:url" content="https://viegolabs.es/">
+  <meta property="og:title" content="Viego Labs · Apps, software e inteligencia artificial">
+  <meta property="og:description" content="Creamos apps móviles, software e inteligencia artificial que hacen crecer a las empresas.">
+  <meta property="og:image" content="https://viegolabs.es/og-viego-labs.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://viegolabs.es/#web",
+        "url": "https://viegolabs.es/",
+        "name": "Viego Labs",
+        "inLanguage": "es-ES",
+        "publisher": { "@id": "https://viegolabs.es/#organizacion" }
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://viegolabs.es/#organizacion",
+        "name": "Viego Labs",
+        "url": "https://viegolabs.es/",
+        "logo": "https://viegolabs.es/logo-viego-labs.png",
+        "description": "Estudio que crea apps móviles, software e inteligencia artificial para empresas: CRM, apps para iOS y Android, IA de voz, chatbots y automatizaciones.",
+        "email": "labs@viego.es",
+        "address": { "@type": "PostalAddress", "addressLocality": "Talavera de la Reina", "addressRegion": "Toledo", "addressCountry": "ES" },
+        "areaServed": { "@type": "Country", "name": "España" }
+      }
+    ]
+  }
+  </script>
+  <script type="module" crossorigin src="/viegolabs-web/astronauta/assets/inicio-D2P6L4f4.js"></script>
+  <link rel="modulepreload" crossorigin href="/viegolabs-web/astronauta/assets/sonido-V7ARkkJx.js">
+  <link rel="stylesheet" crossorigin href="/viegolabs-web/astronauta/assets/sonido-C60HtqlJ.css">
+  <link rel="stylesheet" crossorigin href="/viegolabs-web/astronauta/assets/inicio-C7yxcY7i.css">
+</head>
+<body>
+  <a class="saltar" href="#contenido">Ir al contenido</a>
+
+  <div class="cargador" id="cargador" hidden>
+    <div class="cargador-cursor" aria-hidden="true"><i></i></div>
+    <span class="cargador-num" aria-hidden="true">000</span>
+  </div>
+  <script>
+    // El cargador sale una vez por sesión y nunca con «reducir movimiento». Se decide antes de pintar.
+    // Sin «reducir movimiento», la portada espera escondida a que se abra la página (ui/entrada.js).
+    try {
+      const quieto = matchMedia('(prefers-reduced-motion: reduce)').matches;
+      if (!quieto) document.documentElement.classList.add('entrada');
+      if (!sessionStorage.getItem('vl-entrada') && !quieto) {
+        document.getElementById('cargador').hidden = false;
+        document.documentElement.classList.add('con-cargador');
+      }
+    } catch { /* sin almacenamiento: sin cargador */ }
+  </script>
+
+  <header class="cabecera">
+    <a class="cabecera-logo" href="#inicio" aria-label="Viego Labs, inicio">
+      <img src="/viegolabs-web/astronauta/logo-horizontal-blanco.svg" alt="" width="1500" height="321">
+    </a>
+    <div class="cabecera-acciones">
+      <button class="redonda" type="button" id="sonido" aria-pressed="false" aria-label="Sonido">
+        <span class="onda" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span>
+      </button>
+      <a class="pastilla" href="#hablemos" data-hablemos><span class="punto"></span><span class="txt">Hablemos</span><span class="fl" aria-hidden="true">→</span></a>
+      <button class="pastilla oscura menu-boton" type="button" id="menu-boton" aria-expanded="false" aria-controls="menu"><span class="txt">Menú</span><span class="puntos-menu" aria-hidden="true"><i></i><i></i></span></button>
+    </div>
+  </header>
+
+  <nav class="menu" id="menu" aria-label="Menú" inert data-lenis-prevent>
+    <div class="menu-tarjeta menu-principal">
+      <p class="etiqueta">Menú</p>
+      <a href="#inicio">Inicio</a>
+      <a href="#video">Vídeo</a>
+      <a href="#proyectos">Proyectos</a>
+      <a href="#hablemos">Hablemos</a>
+    </div>
+    <div class="menu-tarjeta menu-lista">
+      <p class="etiqueta">Lo que hacemos</p>
+      <a href="/viegolabs-web/astronauta/crm/">CRM</a>
+      <a href="/viegolabs-web/astronauta/apps/">Apps</a>
+      <a href="/viegolabs-web/astronauta/ia-de-voz/">IA de voz</a>
+      <a href="/viegolabs-web/astronauta/chatbots/">Chatbots</a>
+      <a href="/viegolabs-web/astronauta/automatizaciones/">Automatizaciones</a>
+    </div>
+    <div class="menu-tarjeta menu-lista">
+      <p class="etiqueta">Proyectos</p>
+      <a href="/viegolabs-web/astronauta/proyectos/teratuti/">Teratuti</a>
+      <a href="/viegolabs-web/astronauta/proyectos/mya-salud/">MYA Salud</a>
+      <a href="/viegolabs-web/astronauta/proyectos/graze-tattoo/">Graze Tattoo</a>
+      <a href="/viegolabs-web/astronauta/proyectos/apsia/">Apsia</a>
+    </div>
+    <div class="menu-tarjeta menu-contacto">
+      <p class="etiqueta">Contacto</p>
+      <a href="mailto:labs@viego.es" class="menu-pequeno">labs@viego.es</a>
+      <a href="https://wa.me/34662173981" class="menu-pequeno">WhatsApp 662 173 981</a>
+    </div>
+    <a class="menu-tarjeta menu-viego" href="https://viego.es/">
+      <span class="etiqueta">Viego</span>
+      <span class="menu-viego-txt">Web, SEO y campañas</span>
+    </a>
+  </nav>
+
+  <nav class="puntos" aria-label="Escenas">
+    <a href="#inicio" data-escena="inicio"><span>Inicio</span></a>
+    <a href="#ideas" data-escena="ideas"><span>Ideas</span></a>
+    <a href="#video" data-escena="video"><span>Vídeo</span></a>
+    <a href="#proyectos" data-escena="proyectos"><span>Proyectos</span></a>
+    <a href="#viaje" data-escena="viaje"><span>El viaje</span></a>
+    <a href="#hablemos" data-escena="hablemos"><span>Hablemos</span></a>
+  </nav>
+
+  <main id="contenido">
+    <section class="escena identidad" id="inicio">
+      <canvas class="piezas" id="piezas" aria-hidden="true"></canvas>
+      <div class="identidad-bloque">
+        <h1 class="identidad-texto">Software hecho para tu negocio.</h1>
+        <p class="identidad-apoyo">Apps, programas de gestión e inteligencia artificial.</p>
+      </div>
+      <div class="cruces" aria-hidden="true"><span>+</span><span>+</span><span class="pista">Desliza para explorar</span><span>+</span><span>+</span></div>
+    </section>
+
+    <section class="escena ideas" id="ideas" aria-labelledby="ideas-titulo">
+      <canvas class="tubo" id="tubo" aria-hidden="true"></canvas>
+      <h2 class="claim" id="ideas-titulo"><span class="sangria">Ideas que</span> <span>funcionan</span></h2>
+      <div class="apoyo">
+        <p>Juntamos diseño, programación e inteligencia artificial para crear lo que tu empresa usa cada día: apps, programas de gestión, chatbots, asistentes de voz y automatizaciones que te ahorran horas de trabajo.</p>
+        <a class="pastilla oscura" href="#video"><span class="punto"></span><span class="txt">Ver el vídeo</span><span class="fl" aria-hidden="true">→</span></a>
+      </div>
+      <div class="ideas-miniatura" aria-hidden="true"></div>
+    </section>
+
+    <section class="escena reel" id="video" aria-labelledby="video-titulo">
+      <h2 class="visualmente-oculto" id="video-titulo">Vídeo de Viego Labs</h2>
+      <div class="reel-marco">
+        <span class="reel-cinta reel-cinta-arriba" aria-hidden="true"><span class="reel-cinta-tira"></span></span>
+        <button class="reel-caja" type="button" id="reel-abrir" aria-label="Ver el vídeo con sonido">
+          <video class="reel-previa" id="reel-previa" muted loop playsinline preload="none" poster="/viegolabs-web/astronauta/video/poster.jpg" aria-hidden="true">
+            <source src="/viegolabs-web/astronauta/video/previa.mp4" type="video/mp4">
+          </video>
+          <span class="reel-rotulo" aria-hidden="true"><span class="reel-palabra">Play</span><span class="reel-play"><span class="reel-play-fondo"></span><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4.5 2.6v10.8a.6.6 0 0 0 .9.5l8.6-5.4a.6.6 0 0 0 0-1L5.4 2.1a.6.6 0 0 0-.9.5Z" fill="currentColor"/></svg></span><span class="reel-palabra">Labs</span></span>
+        </button>
+        <span class="reel-cinta reel-cinta-abajo" aria-hidden="true"><span class="reel-cinta-tira"></span></span>
+      </div>
+    </section>
+
+    <section class="escena proyectos" id="proyectos" aria-labelledby="proyectos-titulo">
+      <div class="proyectos-cab">
+        <h2 id="proyectos-titulo">Proyectos <sup>04</sup></h2>
+      </div>
+      <div class="rejilla">
+        <a class="proyecto" href="/viegolabs-web/astronauta/proyectos/teratuti/" data-profundidad="/viegolabs-web/astronauta/proyectos/teratuti/profundidad.webp"><span class="proyecto-img"><img src="/viegolabs-web/astronauta/proyectos/teratuti/portada.jpg" alt="Web de Teratuti con la app en un móvil" width="1600" height="1000" loading="lazy"></span><span class="proyecto-tags">App · Web · IA</span><span class="proyecto-nombre"><svg class="proyecto-flecha" viewBox="0 0 16 16" aria-hidden="true"><path d="M1 8h13M9 3l5 5-5 5" fill="none" stroke="currentColor" stroke-width="1.6"/></svg><span class="proyecto-letras">Teratuti</span></span></a>
+        <a class="proyecto" href="/viegolabs-web/astronauta/proyectos/mya-salud/" data-profundidad="/viegolabs-web/astronauta/proyectos/mya-salud/profundidad.webp"><span class="proyecto-img"><img src="/viegolabs-web/astronauta/proyectos/mya-salud/crm.jpg" alt="CRM de MYA Salud con datos de ejemplo: las citas del día" width="1600" height="1000" loading="lazy"></span><span class="proyecto-tags">CRM</span><span class="proyecto-nombre"><svg class="proyecto-flecha" viewBox="0 0 16 16" aria-hidden="true"><path d="M1 8h13M9 3l5 5-5 5" fill="none" stroke="currentColor" stroke-width="1.6"/></svg><span class="proyecto-letras">MYA Salud</span></span></a>
+        <a class="proyecto" href="/viegolabs-web/astronauta/proyectos/graze-tattoo/" data-profundidad="/viegolabs-web/astronauta/proyectos/graze-tattoo/profundidad.webp"><span class="proyecto-img"><img src="/viegolabs-web/astronauta/proyectos/graze-tattoo/portada.jpg" alt="Web de Graze Tattoo con tinta en movimiento" width="1600" height="1000" loading="lazy"></span><span class="proyecto-tags">Web</span><span class="proyecto-nombre"><svg class="proyecto-flecha" viewBox="0 0 16 16" aria-hidden="true"><path d="M1 8h13M9 3l5 5-5 5" fill="none" stroke="currentColor" stroke-width="1.6"/></svg><span class="proyecto-letras">Graze Tattoo</span></span></a>
+        <a class="proyecto" href="/viegolabs-web/astronauta/proyectos/apsia/" data-profundidad="/viegolabs-web/astronauta/proyectos/apsia/profundidad.webp"><span class="proyecto-img"><img src="/viegolabs-web/astronauta/proyectos/apsia/portada.jpg" alt="Web de Apsia con la Tierra y un satélite" width="1600" height="1000" loading="lazy"></span><span class="proyecto-tags">IA · Automatizaciones</span><span class="proyecto-nombre"><svg class="proyecto-flecha" viewBox="0 0 16 16" aria-hidden="true"><path d="M1 8h13M9 3l5 5-5 5" fill="none" stroke="currentColor" stroke-width="1.6"/></svg><span class="proyecto-letras">Apsia</span></span></a>
+      </div>
+    </section>
+
+    <section class="escena viaje" id="viaje" aria-labelledby="viaje-titulo">
+      <div class="viaje-intro">
+        <h2 class="viaje-titulo" id="viaje-titulo">Si lo puedes imaginar, lo podemos programar.</h2>
+        <div class="viaje-tableta" aria-hidden="true"><div class="viaje-pantalla"></div></div>
+        <div class="viaje-textos">
+          <p>No partimos de plantillas ni de lo que ya existe. Vemos cómo trabaja tu empresa y creamos la app, el programa o la inteligencia artificial que encaja con ella.</p>
+          <p>Diseño, programación e inteligencia artificial en el mismo equipo, para que lo que hacemos se vea bien, vaya rápido y tu equipo lo use desde el primer día.</p>
+        </div>
+      </div>
+      <div class="viaje-recorrido">
+        <div class="viaje-escenario">
+          <p class="viaje-frase"><span class="viaje-linea">Deja volar tu mente</span> <span class="viaje-linea">y mira hasta dónde</span> <span class="viaje-linea">llega tu idea</span></p>
+          <div class="viaje-mensajes">
+            <p>Todo lo que ves en esta web <strong>lo hemos programado nosotros</strong>.</p>
+            <p>Imagina lo que podemos hacer <strong>con tu idea</strong>.</p>
+          </div>
+          <button class="pulsar" type="button" id="pulsar" aria-pressed="false"><span>Mantén pulsado</span></button>
+        </div>
+      </div>
+      <canvas class="viaje-lienzo" id="viaje-lienzo" aria-hidden="true"></canvas>
+      <canvas class="viaje-cristal" id="viaje-cristal" aria-hidden="true"></canvas>
+      <div class="viaje-marco" aria-hidden="true"></div>
+      <div class="viaje-halo" aria-hidden="true"></div>
+    </section>
+
+    <section class="escena hablemos" id="hablemos" aria-labelledby="hablemos-titulo">
+      <p class="etiqueta hablemos-sup">¿Tienes algo entre manos?</p>
+      <h2 class="hablemos-titulo" id="hablemos-titulo">Hablemos</h2>
+      <div class="hablemos-acciones">
+        <button class="pastilla" type="button" data-abrir-formulario><span class="punto"></span><span class="txt">Cuéntanos tu idea</span><span class="fl" aria-hidden="true">→</span></button>
+        <a class="pastilla oscura" href="https://wa.me/34662173981"><span class="punto"></span><span class="txt">WhatsApp</span><span class="fl" aria-hidden="true">→</span></a>
+      </div>
+      <button class="correo" type="button" data-copiar="labs@viego.es">labs@viego.es</button>
+      <p class="correo-aviso" role="status" aria-live="polite"></p>
+    </section>
+  </main>
+
+  <footer class="viego-panel">
+    <div class="casa">
+      <div class="casa-viego">
+        <img class="casa-logo" src="/viegolabs-web/astronauta/viego.svg" alt="Viego" width="1089" height="396" loading="lazy">
+        <p class="casa-titulo">Que te encuentren.</p>
+        <p>Viego es la parte creativa de la casa: marca, web, SEO y campañas.</p>
+        <a class="pastilla negra" href="https://viego.es/"><span class="punto"></span><span class="txt">viego.es</span><span class="fl" aria-hidden="true">↗</span></a>
+      </div>
+      <div class="casa-labs">
+        <img class="casa-logo" src="/viegolabs-web/astronauta/logo-horizontal-blanco.svg" alt="Viego Labs" width="1500" height="321" loading="lazy">
+        <p class="casa-titulo">Que funcione.</p>
+        <p>Viego Labs es la parte técnica de la casa: apps, software e inteligencia artificial.</p>
+        <a class="pastilla" href="#hablemos"><span class="punto"></span><span class="txt">Hablemos</span><span class="fl" aria-hidden="true">→</span></a>
+      </div>
+    </div>
+    <div class="pie-datos">
+      <p><span class="etiqueta">Contacto</span><a href="mailto:labs@viego.es">labs@viego.es</a> · <a href="https://wa.me/34662173981">WhatsApp 662 173 981</a></p>
+      <p><span class="etiqueta">Legal</span><a href="/viegolabs-web/astronauta/aviso-legal/">Aviso legal</a> · <a href="/viegolabs-web/astronauta/privacidad/">Privacidad</a> · <a href="/viegolabs-web/astronauta/cookies/">Cookies</a></p>
+      <p><span class="etiqueta">Viego Labs</span>© 2026</p>
+    </div>
+    <p class="pie-creditos">Astronauta: <a href="https://sketchfab.com/3d-models/mercenary-astronaut-7fd399d488ae4576a0fc62715892956c">«Mercenary Astronaut»</a>, de <a href="https://sketchfab.com/better_peter">Peter_D</a>, con licencia <a href="https://creativecommons.org/licenses/by/4.0/deed.es">CC BY 4.0</a>. Adaptado para la web. Baile: <a href="http://mocap.cs.cmu.edu/">base de captura de movimiento de la CMU</a>.</p>
+    <a class="banda-siguiente" href="/viegolabs-web/astronauta/crm/" data-siguiente>
+      <span class="banda-pista" aria-hidden="true">Sigue bajando<br>para saber más</span>
+      <span class="banda-principal">
+        <span class="banda-destino" style="--letras: 14"><span class="visualmente-oculto">Siguiente: </span>Lo que hacemos</span>
+        <span class="banda-ir" aria-hidden="true"><span class="banda-ir-texto">Siguiente</span><span class="banda-barra"><i></i></span><svg class="banda-flecha" viewBox="0 0 24 24"><path d="M3 12h17M13 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+      </span>
+      <span class="banda-cruces" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span>
+    </a>
+  </footer>
+
+  <dialog class="formulario" id="formulario" aria-labelledby="formulario-titulo">
+    <form method="dialog" class="charla" id="charla">
+      <p class="etiqueta charla-paso">Paso <span id="paso-actual">1</span> de 3</p>
+      <div class="charla-progreso" aria-hidden="true"><i></i><i></i><i></i></div>
+      <h2 id="formulario-titulo">Cuéntanos tu idea</h2>
+      <fieldset class="charla-bloque">
+        <legend>¿Qué necesitas?</legend>
+        <label><input type="radio" name="necesidad" value="app" required> Una app</label>
+        <label><input type="radio" name="necesidad" value="crm"> Un CRM o un programa de gestión</label>
+        <label><input type="radio" name="necesidad" value="ia"> IA de voz o un chatbot</label>
+        <label><input type="radio" name="necesidad" value="automatizar"> Automatizar algo</label>
+        <label><input type="radio" name="necesidad" value="otro"> Aún no lo sé</label>
+      </fieldset>
+      <fieldset class="charla-bloque" hidden>
+        <legend>Cuéntanos tu caso</legend>
+        <label for="caso">En dos líneas</label>
+        <textarea id="caso" name="caso" rows="4" required></textarea>
+        <div class="charla-acciones"><button type="button" class="enlace" data-atras>Atrás</button><button type="button" class="pastilla" data-siguiente><span class="punto"></span><span class="txt">Seguir</span><span class="fl" aria-hidden="true">→</span></button></div>
+      </fieldset>
+      <fieldset class="charla-bloque" hidden>
+        <legend>¿A quién respondemos?</legend>
+        <label for="nombre">Nombre</label>
+        <input id="nombre" name="nombre" autocomplete="name" required>
+        <label for="email">Correo</label>
+        <input id="email" name="email" type="email" autocomplete="email" required>
+        <p class="aviso-datos">Viego Labs usará estos datos solo para responderte. <a href="/viegolabs-web/astronauta/privacidad/">Privacidad</a>.</p>
+        <div class="charla-acciones"><button type="button" class="enlace" data-atras>Atrás</button><button type="submit" class="pastilla"><span class="punto"></span><span class="txt">Enviar</span><span class="fl" aria-hidden="true">→</span></button></div>
+      </fieldset>
+      <p class="charla-hecho" role="status" hidden>Recibido. Te escribimos muy pronto.</p>
+      <p class="aviso-datos">Borrador: el formulario todavía no envía nada.</p>
+      <button class="formulario-cerrar" type="button" data-cerrar-formulario aria-label="Cerrar">✕</button>
+    </form>
+  </dialog>
+
+</body>
+</html>
