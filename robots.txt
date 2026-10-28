@@ -1,5 +1,5 @@
 # robots.txt de https://viegolabs.es/
-# Todo se puede rastrear. /sala/ y /proyectos/ (modelos 3D y vídeo) no se bloquean:
+# Todo se puede rastrear. /proyectos/ (vídeo) no se bloquea:
 # Google necesita esos recursos para renderizar la página.
 User-agent: *
 Allow: /

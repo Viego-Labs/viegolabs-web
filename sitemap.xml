@@ -3,10 +3,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://viegolabs.es/</loc>
-    <lastmod>2026-10-26</lastmod>
+    <lastmod>2026-10-28</lastmod>
   </url>
   <url>
-    <loc>https://viegolabs.es/talavera-de-la-reina/</loc>
-    <lastmod>2026-10-26</lastmod>
+    <loc>https://viegolabs.es/proyectos/teratuti/</loc>
+    <lastmod>2026-10-28</lastmod>
+  </url>
+  <url>
+    <loc>https://viegolabs.es/proyectos/mya-salud/</loc>
+    <lastmod>2026-10-28</lastmod>
+  </url>
+  <url>
+    <loc>https://viegolabs.es/proyectos/graze-tattoo/</loc>
+    <lastmod>2026-10-28</lastmod>
+  </url>
+  <url>
+    <loc>https://viegolabs.es/proyectos/apsia/</loc>
+    <lastmod>2026-10-28</lastmod>
+  </url>
+  <url>
+    <loc>https://viegolabs.es/crm/</loc>
+    <lastmod>2026-10-28</lastmod>
+  </url>
+  <url>
+    <loc>https://viegolabs.es/apps/</loc>
+    <lastmod>2026-10-28</lastmod>
+  </url>
+  <url>
+    <loc>https://viegolabs.es/ia-de-voz/</loc>
+    <lastmod>2026-10-28</lastmod>
+  </url>
+  <url>
+    <loc>https://viegolabs.es/chatbots/</loc>
+    <lastmod>2026-10-28</lastmod>
+  </url>
+  <url>
+    <loc>https://viegolabs.es/automatizaciones/</loc>
+    <lastmod>2026-10-28</lastmod>
   </url>
 </urlset>

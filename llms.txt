@@ -17,7 +17,7 @@ Trabajamos en remoto, sin oficina abierta al público, y vamos en persona cuando
 
 ## Qué no hacemos
 
-- Páginas web, SEO, publicidad ni branding. De eso se encarga Viego: https://www.viego.es/
+- Webs corporativas, SEO, publicidad ni branding. De eso se encarga Viego: https://www.viego.es/
 
 ## Cómo trabajamos
 
@@ -28,13 +28,15 @@ Trabajamos en remoto, sin oficina abierta al público, y vamos en persona cuando
 
 ## Proyectos que enseñamos
 
-- Teratuti: app real (iOS, Android y ordenador) de profesionales sociosanitarios verificados en toda España.
-- Arenal, Contesta, Cierra, Cobra, Lee, Puente y Pulso: productos y demos propios para enseñar lo que montamos. No son clientes.
+- [Teratuti](https://viegolabs.es/proyectos/teratuti/): app (iOS, Android y ordenador), web e inteligencia artificial que une a pacientes con profesionales sociosanitarios verificados.
+- [MYA Salud](https://viegolabs.es/proyectos/mya-salud/): CRM de una clínica de podología de Talavera de la Reina (privado; las capturas llevan datos de ejemplo).
+- [Graze Tattoo](https://viegolabs.es/proyectos/graze-tattoo/): web de un tatuador de Talavera de la Reina.
+- [Apsia](https://viegolabs.es/proyectos/apsia/): inteligencia artificial a medida y automatizaciones para una startup de energía de satélites.
 
 ## Páginas
 
-- [Inicio](https://viegolabs.es/): qué hacemos, ejemplos, cómo trabajamos y contacto.
-- [Talavera de la Reina](https://viegolabs.es/talavera-de-la-reina/): software a medida para pymes de Talavera y su comarca, en remoto y en persona.
+- [Inicio](https://viegolabs.es/): qué hacemos, proyectos y contacto.
+- Lo que hacemos: [CRM](https://viegolabs.es/crm/), [Apps](https://viegolabs.es/apps/), [IA de voz](https://viegolabs.es/ia-de-voz/), [Chatbots](https://viegolabs.es/chatbots/) y [Automatizaciones](https://viegolabs.es/automatizaciones/).
 
 ## Contacto
 

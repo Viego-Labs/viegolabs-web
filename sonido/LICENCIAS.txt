@@ -1,0 +1,45 @@
+Sonido de la web de Viego Labs: autores, fuentes y licencias
+=============================================================
+
+Todo lo de esta carpeta es CC0 1.0 (dominio público): se puede usar, modificar y
+distribuir, también con fines comerciales, sin pedir permiso ni citar al autor.
+Texto de la licencia: https://creativecommons.org/publicdomain/zero/1.0/
+Aun así, dejamos aquí quién lo hizo.
+
+web.m4a  (suena en toda la web salvo en el viaje)
+  Obra:     «Dancing» (04 HoliznaCC0 - Dancing.mp3, del álbum «Chillout Instrumentals», 2024)
+  Autor:    Holizna (HoliznaCC0)
+  Fuente:   OpenGameArt.org, ficha «Chillout Instrumentals (Collection)» (11/04/2024)
+            https://opengameart.org/content/chillout-instrumentals-collection
+  Licencia: CC0 1.0 («This music is public domain CC0, so use it how you want»)
+  Cambios:  se usa el tramo estable de la pista (de 0:19 a 2:03) y se hace bucle sin corte de
+            40 compases a 99 ppm = 96,97 s, fundiendo el final con el principio; AAC-LC 44,1 kHz
+            estéreo a 128 kbps y ganancia a -22 LUFS. El archivo lleva 1 s más con la continuación
+            del bucle; el punto de empalme está en src/ui/sonido.js (muestras de «web»).
+  Provisional: pista elegida por medidas (ritmo, nivel y bucle) hasta que Mario decida.
+
+fondo.m4a  (suena solo durante el viaje)
+  Obra:     «Observing The Star» (ObservingTheStar.ogg, 2012)
+  Autor:    yd
+  Fuente:   OpenGameArt.org, ficha «Another space background track» (30/03/2013)
+            https://opengameart.org/content/another-space-background-track
+  Licencia: CC0 1.0
+  Cambios:  pasada a AAC-LC 44,1 kHz estéreo a 128 kbps; hecha bucle sin corte
+            (72 compases a 140 ppm = 123,43 s, con el final que se apaga solapado
+            sobre el principio que se enciende) y -1 dB de ganancia. El archivo
+            lleva 1 s más con la continuación del bucle; el punto de empalme
+            está en src/ui/sonido.js (muestras de «viaje»).
+
+tarjeta.m4a
+  Obra:     glass_006.ogg, del paquete «Interface Sounds» 1.0
+  Autor:    Kenney (https://www.kenney.nl)
+  Fuente:   OpenGameArt.org, https://opengameart.org/content/interface-sounds
+  Licencia: CC0 1.0
+  Cambios:  AAC mono, -5 dB y un fundido final de 20 ms.
+
+clic.m4a
+  Obra:     click_001.ogg, del paquete «Interface Sounds» 1.0
+  Autor:    Kenney (https://www.kenney.nl)
+  Fuente:   OpenGameArt.org, https://opengameart.org/content/interface-sounds
+  Licencia: CC0 1.0
+  Cambios:  AAC mono y -1,5 dB.
