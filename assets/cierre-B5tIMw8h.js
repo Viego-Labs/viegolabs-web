@@ -1,0 +1,1 @@
+import{n as e}from"./inicio-Wn-E6ngh.js";import{t}from"./siguiente-BLFT0F7I.js";function n({gsap:n,ScrollTrigger:r,reducido:i}){e(document.querySelector(`#hablemos-titulo`),{gsap:n,ScrollTrigger:r,reducido:i,espera:()=>document.documentElement.classList.contains(`cristal-roto`)?1.95:0,letras:!0}),t({reducido:i})}export{n as iniciar};
