@@ -12,8 +12,8 @@
   <link rel="icon" href="/viegolabs-web/favicon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="/viegolabs-web/apple-touch-icon.png">
   <link rel="preload" href="/viegolabs-web/fuentes/satoshi/Satoshi-Variable.woff2" as="font" type="font/woff2" crossorigin>
-  <style>html{--lightningcss-light: ;--lightningcss-dark:initial;color-scheme:dark;background:#0a0d0e}body{color:#c7cfcd;background:#0a0d0e;margin:0}</style>
-  <script>document.documentElement.classList.add('js');setTimeout(function(){if(!window.__vlPagina)document.documentElement.classList.add('a-salvo')},4000)</script>
+  <style>html{--lightningcss-light: ;--lightningcss-dark:initial;color-scheme:dark;background:#0a0d0e}body{color:#c7cfcd;background:#0a0d0e;margin:0}html.llega-panel body{visibility:hidden}</style>
+  <script>document.documentElement.classList.add('js');setTimeout(function(){if(!window.__vlPagina)document.documentElement.classList.add('a-salvo')},4000);try{var f=sessionStorage.getItem('vl-panel');if(f){sessionStorage.removeItem('vl-panel');document.documentElement.classList.add('llega-panel');document.documentElement.style.background=f;setTimeout(function(){document.documentElement.classList.remove('llega-panel')},3000)}}catch(e){}</script>
 
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Viego Labs">
@@ -73,13 +73,13 @@
     ]
   }
   </script>
-  <script type="module" crossorigin src="/viegolabs-web/assets/sonido-D0nviq9y.js"></script>
+  <script type="module" crossorigin src="/viegolabs-web/assets/sonido-CEhLLeRs.js"></script>
   <script type="module" crossorigin src="/viegolabs-web/assets/lenis-DYAF5LSz.js"></script>
-  <script type="module" crossorigin src="/viegolabs-web/assets/siguiente-BLFT0F7I.js"></script>
-  <script type="module" crossorigin src="/viegolabs-web/assets/pagina-BRhy0QHL.js"></script>
-  <link rel="stylesheet" crossorigin href="/viegolabs-web/assets/sonido-sgdf2Q-7.css">
-  <link rel="stylesheet" crossorigin href="/viegolabs-web/assets/siguiente-mcvp4KF-.css">
-  <link rel="stylesheet" crossorigin href="/viegolabs-web/assets/pagina-CRXh-gxb.css">
+  <script type="module" crossorigin src="/viegolabs-web/assets/siguiente-RVGiibht.js"></script>
+  <script type="module" crossorigin src="/viegolabs-web/assets/pagina-DeTVorVf.js"></script>
+  <link rel="stylesheet" crossorigin href="/viegolabs-web/assets/sonido-DpdXnSi0.css">
+  <link rel="stylesheet" crossorigin href="/viegolabs-web/assets/siguiente-BpLt3zhY.css">
+  <link rel="stylesheet" crossorigin href="/viegolabs-web/assets/pagina-BhT_wKJ8.css">
 </head>
 <body class="pagina-detalle" style="--fondo: #231B38; --realce: #B09BC8">
   <a class="saltar" href="#contenido">Ir al contenido</a>
@@ -91,6 +91,7 @@
     <a class="volver" href="/viegolabs-web/#proyectos" aria-label="Volver a proyectos"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M15 8H2M7 3 2 8l5 5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Volver</span></a>
     <div class="cabecera-acciones">
       <button class="redonda" type="button" id="sonido" aria-pressed="false" aria-label="Sonido">
+        <svg class="sonido-apagado" viewBox="0 0 20 16" aria-hidden="true"><path d="M2.5 5.3h2.7l4.3-3.3c.4-.3.9 0 .9.4v11.2c0 .4-.5.7-.9.4l-4.3-3.3H2.5c-.5 0-.9-.4-.9-.9V6.2c0-.5.4-.9.9-.9z"/><path class="sonido-x" pathLength="1" d="m13.5 5.5 5 5"/><path class="sonido-x" pathLength="1" d="m13.5 10.5 5-5"/></svg>
         <span class="onda" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span>
       </button>
       <a class="pastilla" href="/viegolabs-web/#hablemos" data-hablemos><span class="punto"></span><span class="txt">Hablemos</span><span class="fl" aria-hidden="true">→</span></a>
@@ -103,7 +104,7 @@
       <p class="etiqueta">Menú</p>
       <a href="/viegolabs-web/">Inicio</a>
       <a href="/viegolabs-web/#video">Vídeo</a>
-      <a href="/viegolabs-web/#proyectos">Proyectos</a>
+      <a href="/viegolabs-web/proyectos/">Proyectos</a>
       <a href="/viegolabs-web/#hablemos">Hablemos</a>
     </div>
     <div class="menu-tarjeta menu-lista">
@@ -213,13 +214,9 @@
       <p><span class="etiqueta">Viego Labs</span>© 2026</p>
     </div>
     <p class="pie-creditos">Astronauta: <a href="https://sketchfab.com/3d-models/mercenary-astronaut-7fd399d488ae4576a0fc62715892956c">«Mercenary Astronaut»</a>, de <a href="https://sketchfab.com/better_peter">Peter_D</a>, con licencia <a href="https://creativecommons.org/licenses/by/4.0/deed.es">CC BY 4.0</a>. Adaptado para la web.</p>
-    <a class="banda-siguiente" href="/viegolabs-web/proyectos/mya-salud/" data-siguiente>
-      <span class="banda-pista" aria-hidden="true">Sigue bajando<br>para saber más</span>
-      <span class="banda-principal">
-        <span class="banda-destino" style="--letras: 9"><span class="visualmente-oculto">Siguiente: </span>MYA Salud</span>
-        <span class="banda-ir" aria-hidden="true"><span class="banda-ir-texto">Siguiente</span><span class="banda-barra"><i></i></span><svg class="banda-flecha" viewBox="0 0 24 24"><path d="M3 12h17M13 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
-      </span>
-      <span class="banda-cruces" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span>
+    <a class="siguiente-proyecto" href="/viegolabs-web/proyectos/mya-salud/" data-siguiente-proyecto data-fondo="#1D1D1F" style="--letras: 5">
+      <span class="sp-titulo"><span class="visualmente-oculto">Siguiente proyecto: </span>MYA Salud</span>
+      <span class="sp-pie" aria-hidden="true"><span class="sp-texto">Siguiente proyecto</span><span class="sp-barra"><i></i></span><svg class="sp-flecha" viewBox="0 0 24 24"><path d="M3 12h17M13 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
     </a>
   </footer>
 

@@ -1,0 +1,1 @@
+import{n as e}from"./preload-helper-CodPbYQ7.js";import{t}from"./siguiente-RVGiibht.js";function n({gsap:n,ScrollTrigger:r,reducido:i}){e(document.querySelector(`#hablemos-titulo`),{gsap:n,ScrollTrigger:r,reducido:i,espera:()=>Math.max(0,Number(document.documentElement.dataset.esperaTitulo)||0),letras:!0}),t({reducido:i})}export{n as iniciar};

@@ -36,6 +36,7 @@ Trabajamos en remoto, sin oficina abierta al público, y vamos en persona cuando
 ## Páginas
 
 - [Inicio](https://viegolabs.es/): qué hacemos, proyectos y contacto.
+- [Proyectos](https://viegolabs.es/proyectos/): los cuatro proyectos que enseñamos.
 - Lo que hacemos: [CRM](https://viegolabs.es/crm/), [Apps](https://viegolabs.es/apps/), [IA de voz](https://viegolabs.es/ia-de-voz/), [Chatbots](https://viegolabs.es/chatbots/) y [Automatizaciones](https://viegolabs.es/automatizaciones/).
 
 ## Contacto
