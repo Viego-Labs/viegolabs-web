@@ -51,18 +51,20 @@
     ]
   }
   </script>
-  <script type="module" crossorigin src="/viegolabs-web/assets/inicio-BvOtJ8JL.js"></script>
-  <link rel="modulepreload" crossorigin href="/viegolabs-web/assets/sonido-CEhLLeRs.js">
-  <link rel="modulepreload" crossorigin href="/viegolabs-web/assets/preload-helper-CodPbYQ7.js">
+  <script type="module" crossorigin src="/viegolabs-web/assets/inicio-J394Y2hG.js"></script>
+  <link rel="modulepreload" crossorigin href="/viegolabs-web/assets/ruta-DlHneNSR.js">
+  <link rel="modulepreload" crossorigin href="/viegolabs-web/assets/sonido-B0N5ydmF.js">
+  <link rel="modulepreload" crossorigin href="/viegolabs-web/assets/texto-BMJCcCi-.js">
+  <link rel="modulepreload" crossorigin href="/viegolabs-web/assets/preload-helper-UIlBSopW.js">
   <link rel="stylesheet" crossorigin href="/viegolabs-web/assets/sonido-DpdXnSi0.css">
-  <link rel="stylesheet" crossorigin href="/viegolabs-web/assets/preload-helper-dvStOqkZ.css">
+  <link rel="stylesheet" crossorigin href="/viegolabs-web/assets/escenas-BNOZq9oG.css">
 </head>
 <body>
   <a class="saltar" href="#contenido">Ir al contenido</a>
 
   <div class="cargador" id="cargador" hidden>
     <div class="cargador-cursor" aria-hidden="true"><i></i></div>
-    <span class="cargador-num" aria-hidden="true">000</span>
+    <span class="cargador-num" aria-hidden="true"><span class="cifra"><span class="cifra-tira"><i>0</i><i>0</i></span></span><span class="cifra"><span class="cifra-tira"><i>0</i><i>0</i></span></span><span class="cifra"><span class="cifra-tira"><i>0</i><i>0</i></span></span></span>
   </div>
   <script>
     // El cargador sale una vez por sesión y nunca con «reducir movimiento». Se decide antes de pintar.
@@ -159,7 +161,7 @@
       <div class="reel-marco">
         <span class="reel-cinta reel-cinta-arriba" aria-hidden="true"><span class="reel-cinta-tira"></span></span>
         <button class="reel-caja" type="button" id="reel-abrir" aria-label="Ver el vídeo con sonido">
-          <video class="reel-previa" id="reel-previa" muted loop playsinline preload="none" poster="/viegolabs-web/video/poster.jpg" aria-hidden="true">
+          <video class="reel-previa" id="reel-previa" muted loop playsinline preload="none" data-poster="/viegolabs-web/video/poster.jpg" aria-hidden="true">
             <source src="/viegolabs-web/video/previa.mp4" type="video/mp4">
           </video>
           <span class="reel-rotulo" aria-hidden="true"><span class="reel-palabra">Play</span><span class="reel-play"><span class="reel-play-fondo"></span><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4.5 2.6v10.8a.6.6 0 0 0 .9.5l8.6-5.4a.6.6 0 0 0 0-1L5.4 2.1a.6.6 0 0 0-.9.5Z" fill="currentColor"/></svg></span><span class="reel-palabra">Labs</span></span>

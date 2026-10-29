@@ -1,0 +1,1 @@
+var e=matchMedia(`(pointer: coarse)`).matches;function t(t=1.5){return Math.min(devicePixelRatio||1,e?2:t)}export{t};

@@ -1,0 +1,1 @@
+var e=e=>`/viegolabs-web/`+e.replace(/^\//,``);export{e as t};
