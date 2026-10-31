@@ -1,0 +1,1 @@
+export{t as arrancar}from"./arranque-BIDB4B0d.js";
