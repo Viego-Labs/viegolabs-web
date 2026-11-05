@@ -1,0 +1,1 @@
+export{t as arrancar}from"./arranque-B5Hb_4HN.js";

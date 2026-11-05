@@ -51,13 +51,13 @@
     ]
   }
   </script>
-  <script type="module" crossorigin src="/viegolabs-web/assets/inicio-CaavV5b8.js"></script>
+  <script type="module" crossorigin src="/viegolabs-web/assets/inicio-ChCUqu9z.js"></script>
   <link rel="modulepreload" crossorigin href="/viegolabs-web/assets/ruta-DlHneNSR.js">
-  <link rel="modulepreload" crossorigin href="/viegolabs-web/assets/sonido-BirefTA8.js">
+  <link rel="modulepreload" crossorigin href="/viegolabs-web/assets/sonido-C_6EF2Wi.js">
   <link rel="modulepreload" crossorigin href="/viegolabs-web/assets/texto-BMJCcCi-.js">
   <link rel="modulepreload" crossorigin href="/viegolabs-web/assets/preload-helper-UIlBSopW.js">
-  <link rel="stylesheet" crossorigin href="/viegolabs-web/assets/sonido-C9s0002x.css">
-  <link rel="stylesheet" crossorigin href="/viegolabs-web/assets/escenas-CEIRdu6I.css">
+  <link rel="stylesheet" crossorigin href="/viegolabs-web/assets/sonido-XUWgRdnA.css">
+  <link rel="stylesheet" crossorigin href="/viegolabs-web/assets/escenas-CUFXSwL1.css">
 </head>
 <body>
   <a class="saltar" href="#contenido">Ir al contenido</a>
@@ -258,7 +258,7 @@
   </footer>
 
   <dialog class="formulario" id="formulario" aria-labelledby="formulario-titulo">
-    <form method="dialog" class="charla" id="charla">
+    <form method="dialog" class="charla" id="charla" data-envio="" data-turnstile="">
       <p class="etiqueta charla-paso">Paso <span id="paso-actual">1</span> de 3</p>
       <div class="charla-progreso" aria-hidden="true"><i></i><i></i><i></i></div>
       <h2 id="formulario-titulo">Cuéntanos tu idea</h2>
@@ -282,7 +282,10 @@
         <input id="nombre" name="nombre" autocomplete="name" required>
         <label for="email">Correo</label>
         <input id="email" name="email" type="email" autocomplete="email" required>
+        <label class="charla-trampa" aria-hidden="true">Tu web <input name="web" tabindex="-1" autocomplete="off"></label>
+        <div class="charla-turnstile"></div>
         <p class="aviso-datos">Viego Labs usará estos datos solo para responderte. <a href="/viegolabs-web/privacidad/">Privacidad</a>.</p>
+        <p class="charla-error" role="alert" hidden></p>
         <div class="charla-acciones"><button type="button" class="enlace" data-atras>Atrás</button><button type="submit" class="pastilla"><span class="punto"></span><span class="txt">Enviar</span><span class="fl" aria-hidden="true">→</span></button></div>
       </fieldset>
       <p class="charla-hecho" role="status" hidden>Recibido. Te escribimos muy pronto.</p>
