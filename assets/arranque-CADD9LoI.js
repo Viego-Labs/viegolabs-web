@@ -1,0 +1,1 @@
+export{t as arrancar}from"./arranque-CpFCzpgP.js";
